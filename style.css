@@ -1,0 +1,32 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+#plan_classe{
+    display: none
+}
+
+.fond{
+    height: 100px;
+}
+
+.gauche{
+    writing-mode: vertical-rl;
+}
+
+.droite{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.vide{
+    border: none;
+}
