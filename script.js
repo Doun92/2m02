@@ -58,10 +58,7 @@ const tableau_classe = {
     "P24": "",
     "P25": "",
     "P26": "",
-    "P27": "",
-    "P28": "",
-    "P29": "",
-    "P30": ""
+    "P27": ""
 }
 
 function brasser(liste_eleves, places){
@@ -80,7 +77,7 @@ function brasser(liste_eleves, places){
 
 function afficher_plan(){
     plan_classe = brasser(eleves, tableau_classe)
-    for (let i=1; i<=30; i++){
+    for (let i=1; i<=27; i++){
         document.getElementById(`P${i}`).textContent = plan_classe[`P${i}`]
     }
     document.getElementById("plan_classe").style.display = "table"
