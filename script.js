@@ -27,8 +27,6 @@ const eleves = [
     "-",
     "-",
     "-",
-    "-",
-    "-"
 ]
 
 const tableau_classe = {
